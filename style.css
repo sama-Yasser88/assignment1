@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ /* <home> */
+.home
+{
+    background-image: url(img/busy-urban-intersection-stockcake.jpg);
+    height: 100vh;
+    background-size: 100%  100%;
+    overflow: auto;
+    overflow: hidden;
+}
+.fa-2x{
+ margin-top:20px;
+ margin-right:15px;
+float: right;
+color: white;
+}
+.nav-logo
+{
+width: 15%;
+float: left;
+margin-top: 10px;
+margin-left: 30px;
+}
+.nav-links ul{
+    float: right;
+    padding-top: none;
+    margin-left: 30px;
+    padding-left: 20px;   
+}
+.nav-links ul li{
+    list-style-type: none;
+    float: left;
+     padding: 10px; 
+    margin-top: 15px;
+}
+.nav-links ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+} 
+.clr{
+    clear: both;
+}
+.contaneer{
+    width: 90%;
+    margin:auto;
+    border-bottom: 1px solid #ccc;
+}
+ .home-cap{
+    width: 90%;
+    margin: auto;
+ }
+ .cap1{ 
+    width: 33.33%;
+    font-size: 20px;
+    margin-top: 45%;
+    float: left;
+    padding: 20px; 
+ }
+ .cap1 p{
+    color: white;
+ }
+ .circle {
+    width: 50px;
+    height:50px ;
+    margin:auto;
+    background-color: transparent;
+    border: 2px solid rgb(249, 244, 244);
+    border-radius: 50%;
+    margin-top: 0%;
+    float: left;
+  }
+  
+  .circle span {
+    padding-left:20px;
+    padding-top:60px ;
+    font-size: 25px;
+    color: #f8f8f8;
+  }
+/* </home> */
+
+ .all-contaneer
+ {
+    /* background-color: blue; */
+    width: 100%;
+    margin-top: 10px;
+    /* margin:auto; */
+ }
+ .title1
+{
+width: 20%;
+float: left;
+margin-top: 10px;
+
+}
+.title1-links ul{
+    float: right;
+    padding-top: none;
+    padding-left:50px;   
+    display: flex;
+    justify-content: center;
+
+}
+.title1-links ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;  
+}
+.title1-links ul li a{
+    font-size: 20px;
+    color: rgb(95, 92, 92);
+    text-decoration: none; 
+} 
+.part1{
+    width: 90%;
+    margin:auto;
+    border-bottom: 1px solid #ccc;
+}
+.contaneer1{
+    /* background-color: tomato; */
+    display: flex;
+    width: 33.33%;
+    float: left;
+}
+.articles img{
+    width: 100%;
+}
+.contaneer1 p{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+}
+.contaneer2{
+    padding:20px;
+    /* background-color: rgb(16, 224, 27); */
+    width: 33.33%;
+    display: flex;
+}
+.contaneer2 table tr{
+    border:#ecdbdb solid;
+}
+.contaneer2 table tr img {
+    width: 50%;
+}
+.contaneer2 table tr p{
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.contaneer3{
+
+    /* background-color: rgb(53, 53, 55); */
+    width: 33.33%;
+    display: flex;
+    float:right;
+    margin-top:-200px;
+}
+.contaneer3 h3{
+    text-align: center;
+    margin-top:-100px;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.gallery h3{
+    margin-top: 20px;
+    color: black;
+}
+.gallery p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #686868;
+
+}
+.meal{
+    /* background-color: blue; */
+    width:33.33% ;
+    text-align: center;
+    float: left;
+}
+.meal img {
+    width: 100%;
+}
+.ineer{
+    padding: 30px;
+}
+.ineer h5{
+    margin-top: 35px;
+    color: black;
+
+}
+
+.contact{
+    margin-top: 80px;
+    /* background-color:#5e5954; */
+}
+ .contaneer{
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin: auto;
+    /* background-color: #686868; */
+ }
+ .contact-row{
+    padding-left: 50px;
+    width: 22%;
+    float: left;
+ }
+ /* </contact> */
+
+ 
